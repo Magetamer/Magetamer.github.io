@@ -1,32 +1,33 @@
- .intro {
-    font-size: 23px;
+ .intro { /* Requirement-2.C */
+    font-size: 23px; /* Requirement-2.1 */
     font-weight: bold;
-    color: purple;
+    color: purple; /* Requirement-2.3 */
     background-color: black;
-    border-style:ridge;
+    border-style:ridge; /* Requirement-2.5 */
     border-color: violet;
-    width: 50%;
-    height: 60px;
-    overflow:auto;
-    margin-left: 400px;
+    width: 50%; /* Requirement-2.10 */
+    height: 60px; /* Requirement-2.7 */
+    overflow:auto; /* Requirement-2.14 */
+    margin-left: 400px; /* Requirement-2.6 */
+    text-decoration: underline; /* Requirement-2.2 */
 }
-/*Test */
+
 .style {
     color: magenta;
     background-color: black;
     border-style:ridge;
     border-color: violet;
-    margin: 90px;
+    margin: 90px; /* Requirement-2.9 */
 }
 
 .liststyle{
-    list-style: circle;
+    list-style: circle; /* Requirement-2.8 */
     color: magenta;
     background-color: black;
     border-style:ridge;
     border-color: violet;
     margin: 90px;
-    display:table-row-group;
+    display:table-row-group; /* Requirement-2.12 */
 }
 
 .linkstyle {
@@ -38,9 +39,9 @@
 }
 
 
-img {
+img { /* Requirement-2.A */
     border-radius: 10%;
-    float:left;
+    float:left; /* Requirement-2.11 */
 }
 
 .border {
@@ -51,33 +52,33 @@ img {
 }
 
 summary {
-    clear:left;
+    clear:left; /* Requirement-2.13 */
     margin: 40px;
 }
 
 .looking {
-    position: fixed;
+    position: fixed; /* Requirement-2.15 */
     right: 30px;
     top: 40px;
-    z-index: -1;
+    z-index: -1; /* Requirement-2.17 */
 }
 
 table {
-    visibility: collapse;
+    visibility: collapse; /* Requirement-2.16 */
 }
 
-h1, li {
+h1, li { /* Requirement-2.B */
     color: rebeccapurple;
 }
 
-#red{
+#red{ /* Requirement-2.D */
     color: red;
 }
 
-a:visited{
+a:visited{ /* Requirement-2.E */
     color:palevioletred
 }
 
-div p{
+div p{ /* Requirement-2.F */
     color: blue
 }
