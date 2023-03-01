@@ -1,0 +1,83 @@
+ .intro {
+    font-size: 23px;
+    font-weight: bold;
+    color: purple;
+    background-color: black;
+    border-style:ridge;
+    border-color: violet;
+    width: 50%;
+    height: 60px;
+    overflow:auto;
+    margin-left: 400px;
+}
+
+.style {
+    color: magenta;
+    background-color: black;
+    border-style:ridge;
+    border-color: violet;
+    margin: 90px;
+}
+
+.liststyle{
+    list-style: circle;
+    color: magenta;
+    background-color: black;
+    border-style:ridge;
+    border-color: violet;
+    margin: 90px;
+    display:table-row-group;
+}
+
+.linkstyle {
+    color: magenta;
+    background-color: black;
+    border-style:ridge;
+    border-color: violet;
+    margin: 90px;
+}
+
+
+img {
+    border-radius: 10%;
+    float:left;
+}
+
+.border {
+    background-color: black;
+    border-style:ridge;
+    border-color: violet;
+    color: violet;
+}
+
+summary {
+    clear:left;
+    margin: 40px;
+}
+
+.looking {
+    position: fixed;
+    right: 30px;
+    top: 40px;
+    z-index: -1;
+}
+
+table {
+    visibility: collapse;
+}
+
+h1, li {
+    color: rebeccapurple;
+}
+
+#red{
+    color: red;
+}
+
+a:visited{
+    color:palevioletred
+}
+
+div p{
+    color: blue
+}
