@@ -1,79 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<link
 			rel="stylesheet"
-			href="styles.css" />
-		<!-- Requirement-1.A -->
-		<title>Danny's Website for CS2250</title>
+			href="style.css" />
 	</head>
-	<style>
-		body {
-			/* Requirement-2.4 */
-			background: url("cloud_interview.jpg") no-repeat center center fixed;
-			background-size: cover;
-		}
-	</style>
-	<!-- Requirement-1.B -->
+
 	<body>
-		<header class="border">
-			<!-- Requirement-1.F -->
-			<h1>Welcome to my website!</h1>
-		</header>
-		<!-- Requirement-1.G -->
-		<p class="intro">
-			Hello! My name is Daniel, but everyone calls me Danny. I like video games, playing them is my
-			favorite hobby. When I was younger I would read a lot of books, and I read the Percy Jackson
-			series multiple times. Probably my favorite book series.
-		</p>
+		
+			<div id="MyTitle">
+				<p>Some of my words</p>
+			</div>
+            <div class="flex-container">
 
-		<!-- Requirement-1.E -->
-		<section>
-			<h3 class="style">
-				The main section of this page, for now, is to tell you about the things I like, starting with
-				the following list
-			</h3>
-			<p class="style">Here's a list of some things I like!</p>
-			<!-- Requirement-1.K -->
-			<ul class="liststyle">
-				<li>The color purple</li>
-				<li>Final Fantasy 7</li>
-				<li id="red">Fighting games, like Street Fighter and DragonBall Fighterz</li>
-			</ul>
+			<div
+            style ="order: 1"
+				class="set"
+				id="Adiv">
+				<h1>A Words</h1>
+				<ul id="list">
+					<li id="listcontent">Apple</li>
+					<li id="listcontent">Abacus</li>
+					<li id="listcontent">Autonamous</li>
+				</ul>
+			</div>
 
-			<!-- Requirement-1.O -->
-			<table class="style">
-				<tr>
-					<th>Games I have played |</th>
-					<th>Games I want to play</th>
-				</tr>
-				<tr>
-					<th>Final Fantasy 7</th>
-					<th>Final Fantasy 6</th>
-				</tr>
-			</table>
-		</section>
-		<nav>
-			<p>
-				<a
-					class="linkstyle"
-					href="pages/page1.html"
-					>Click here to see a random image I put on this website!</a
-				>
-			</p>
-		</nav>
+			<div
+                style ="order: 3"
+				class="set"
+				id="Cdiv">
+				<h1>C Words</h1>
+				<ul id="list">
+					<li id="listcontent">California</li>
+					<li id="listcontent">Catastrophy</li>
+					<li id="listcontent">Calibrate</li>
+				</ul>
+			</div>
 
-		<img
-			class="looking"
-			src="ceiling-cat.jpg"
-			alt="There should be a picture of a cat here."
-			width="200"
-			title="Ceiling cat" />
+			<div
+            style ="order: 4"
+				class="set"
+				id="Ddiv">
+				<h1>D Words</h1>
+				<ul id="list">
+					<li id="listcontent">Dent</li>
+					<li id="listcontent">Delusion</li>
+					<li id="listcontent">Dispense</li>
+				</ul>
+			</div>
 
-		<!-- Requirement-1.C -->
-		<footer class="style">
-			That's a little bit about me. I know the website is kinda ugly but my 2023 has been insanely
-			busy, I barely have time. I'll try to make it look pretty when I can!
-		</footer>
+			<div
+            style ="order: 2"
+				class="set"
+				id="Bdiv">
+				<h1>B Words</h1>
+				<ul id="list">
+					<li id="listcontent">Boot</li>
+					<li id="listcontent">Ball</li>
+					<li id="listcontent">Beligerent</li>
+				</ul>
+			</div>
+		</div>
+		<div id="MyFoot">
+			<p>I have many more words</p>
+			<!-- But not too many, this year fried my brain :P -->
+		</div>
 	</body>
 </html>
